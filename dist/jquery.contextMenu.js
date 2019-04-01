@@ -1844,6 +1844,8 @@
                     } catch (e) {
                         menus[namespaces[o.selector]] = null;
                     }
+                    
+                    initialized = false;
 
                     $document.off(namespaces[o.selector]);
                 }
